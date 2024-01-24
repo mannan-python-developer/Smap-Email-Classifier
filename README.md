@@ -8,6 +8,8 @@ This repository contains a machine learning model for classifying emails as eith
 
 - **Logistic Regression Model:** A logistic regression model is employed for classification, trained on a labeled dataset of spam and non-spam emails.
 
+- **Email Testing:** The notebook includes a feature to classify a sample email as either spam or ham. The code cell below demonstrates to use the trained model to predict the category of a provided email.
+
 ## Usage
 
 1. **Training Data:** Prepare a labeled dataset with examples of both spam and non-spam emails.
@@ -18,31 +20,18 @@ This repository contains a machine learning model for classifying emails as eith
 
 4. **Prediction:** Apply the trained model to new email data to predict whether each email is spam or not.
 
-## Code Structure
-
-- `train_spam_classifier.py`: Python script for training the spam email classifier model.
-
 ## Getting Started
 
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/yourusername/spam-email-classifier.git
-    cd spam-email-classifier
+    git clone https://github.com/mannan-python-developer/Smap-Email-Classifier.git
     ```
 
 2. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
-    ```
-
-3. Prepare your labeled dataset and update the configuration parameters in `train_spam_classifier.py` accordingly.
-
-4. Train the model:
-
-    ```bash
-    python train_spam_classifier.py
     ```
 
 5. Use the trained model for predictions in your own application.
